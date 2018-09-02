@@ -1,78 +1,54 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Pre-work - *Tip-C*
 
-## Build generated
-build/
-DerivedData/
+**Tip-C** is a tip calculator application for iOS.
 
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
+Submitted by: **Antwaan Thomas**
 
-## Other
-*.moved-aside
-*.xccheckout
-*.xcscmblueprint
+Time spent: **7** hours spent in total
 
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
+## User Stories
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+The following **required** functionality is complete:
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-.build/
+* [ Y] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+The following **optional** features are implemented:
+* [ N] Settings page to change the default tip percentage.
+* [ Y] UI animations
+* [ N] Remembering the bill amount across app restarts (if <10mins)
+* [N ] Using locale-specific currency and currency thousands separators.
+* [ N] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+The following **additional** features are implemented:
 
-Carthage/Build
+- [ ] List anything else that you can get done to improve the app functionality!
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+## Video Walkthrough 
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+Here's a walkthrough of implemented user stories:
 
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-iOSInjectionProject/
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+https://imgur.com/a/q89upqA
+
+Describe any challenges encountered while building the app.
+
+## License
+
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
